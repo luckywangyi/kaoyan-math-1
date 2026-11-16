@@ -1,0 +1,1891 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>考研数学一 · 高数分章复习提纲</title>
+<style>
+:root{--bg:#f7f9fc;--card:#fff;--ink:#1f2937;--sub:#5b6675;--line:#e3e9f2;--accent:#2563eb;--accent2:#e8f0ff;--warn:#b45309}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.85 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+#wrap{display:flex;max-width:1400px;margin:0 auto;gap:28px;padding:28px}
+#side{width:270px;flex:none;position:sticky;top:20px;align-self:flex-start;max-height:calc(100vh - 40px);overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+#side h3{margin:0 0 12px;font-size:15px;color:var(--accent)}
+#side a{display:block;color:var(--sub);text-decoration:none;font-size:12.5px;padding:3px 6px;border-radius:6px;line-height:1.5}
+#side a:hover{background:var(--accent2);color:var(--accent)}
+#side a.lv1{font-weight:600;color:var(--ink);margin-top:8px}
+#side a.lv2{padding-left:16px}
+main{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:34px 44px}
+h1{font-size:27px;border-bottom:2px solid var(--accent);padding-bottom:12px;margin:0 0 22px}
+h2{font-size:21px;margin:38px 0 14px;padding-left:12px;border-left:4px solid var(--accent)}
+h3{font-size:17px;margin:26px 0 10px;color:#1e40af}
+blockquote{margin:14px 0;padding:10px 16px;background:#f3f7ff;border-left:3px solid #93b4f7;border-radius:0 8px 8px 0;color:var(--sub)}
+blockquote p{margin:4px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:13.5px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+th{background:var(--accent2);color:#1e40af;font-weight:600}
+tr:nth-child(even) td{background:#fafcff}
+code{background:#f1f4f9;padding:1px 5px;border-radius:4px;font-size:12.5px;color:#b45309}
+pre{background:#f6f8fb;border:1px solid var(--line);border-radius:9px;padding:14px;overflow:auto}
+li{margin:4px 0}hr{border:0;border-top:1px solid var(--line);margin:30px 0}
+details{background:#fafcff;border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin:12px 0}
+summary{cursor:pointer;color:var(--accent);font-size:13.5px}
+input[type=checkbox]{accent-color:var(--accent)}
+@media(max-width:900px){#wrap{flex-direction:column;padding:14px}#side{position:static;width:100%;max-height:220px}main{padding:20px}}
+</style></head><body><div id="wrap">
+<nav id="side"><h3>目录导航</h3><a class="lv1" href="#00">00 总纲｜识别依据、拆分方案与分章复习提纲</a>
+<a class="lv2" href="#_1">一、文件识别结果</a>
+<a class="lv2" href="#_2">二、章节划分的识别依据</a>
+<a class="lv2" href="#_3">三、拆分方案与执行结果</a>
+<a class="lv2" href="#_5">四、数学一适用性对照（填写提纲时请据此取舍）</a>
+<a class="lv2" href="#_6">五、复习资料的文件结构与填写规范</a>
+<a class="lv2" href="#_7">六、填写进度表</a>
+<a class="lv2" href="#_8">七、附录索引</a>
+<a class="lv1" href="#1">第1讲 函数极限与连续</a>
+<a class="lv2" href="#pdf">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_9">一、核心知识点</a>
+<a class="lv2" href="#_10">二、公式定理</a>
+<a class="lv2" href="#_11">三、典型题型与解题思路</a>
+<a class="lv2" href="#_12">四、复习重点</a>
+<a class="lv2" href="#_13">五、易错点</a>
+<a class="lv2" href="#_14">六、配套与自检</a>
+<a class="lv1" href="#2">第2讲 数列极限</a>
+<a class="lv2" href="#pdf_1">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_15">一、核心知识点</a>
+<a class="lv2" href="#_16">二、公式定理</a>
+<a class="lv2" href="#_17">三、典型题型与解题思路</a>
+<a class="lv2" href="#_18">四、复习重点</a>
+<a class="lv2" href="#_19">五、易错点</a>
+<a class="lv2" href="#_20">六、配套与自检</a>
+<a class="lv1" href="#3">第3讲 一元函数微分学的概念</a>
+<a class="lv2" href="#pdf_2">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_21">一、核心知识点</a>
+<a class="lv2" href="#_22">二、公式定理</a>
+<a class="lv2" href="#_23">三、典型题型与解题思路</a>
+<a class="lv2" href="#_24">四、复习重点</a>
+<a class="lv2" href="#_25">五、易错点</a>
+<a class="lv2" href="#_26">六、配套与自检</a>
+<a class="lv1" href="#4">第4讲 一元函数微分学的计算</a>
+<a class="lv2" href="#pdf_3">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_27">一、核心知识点</a>
+<a class="lv2" href="#_28">二、公式定理</a>
+<a class="lv2" href="#_29">三、典型题型与解题思路</a>
+<a class="lv2" href="#_30">四、复习重点</a>
+<a class="lv2" href="#_31">五、易错点</a>
+<a class="lv2" href="#_32">六、配套与自检</a>
+<a class="lv1" href="#5">第5讲 一元函数微分学的应用（一）——几何应用</a>
+<a class="lv2" href="#pdf_4">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_33">一、核心知识点</a>
+<a class="lv2" href="#_34">二、公式定理</a>
+<a class="lv2" href="#_35">三、典型题型与解题思路</a>
+<a class="lv2" href="#_36">四、复习重点</a>
+<a class="lv2" href="#_37">五、易错点</a>
+<a class="lv2" href="#_38">六、配套与自检</a>
+<a class="lv1" href="#6">第6讲 一元函数微分学的应用（二）——中值定理、微分等式与微分不等式</a>
+<a class="lv2" href="#pdf_5">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_39">一、核心知识点</a>
+<a class="lv2" href="#_40">二、公式定理</a>
+<a class="lv2" href="#_41">三、典型题型与解题思路</a>
+<a class="lv2" href="#_42">四、复习重点</a>
+<a class="lv2" href="#_43">五、易错点</a>
+<a class="lv2" href="#_44">六、配套与自检</a>
+<a class="lv1" href="#7">第7讲 一元函数微分学的应用（三）——物理应用与经济应用</a>
+<a class="lv2" href="#pdf_6">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_45">一、核心知识点</a>
+<a class="lv2" href="#_46">二、公式定理</a>
+<a class="lv2" href="#_47">三、典型题型与解题思路</a>
+<a class="lv2" href="#_48">四、复习重点</a>
+<a class="lv2" href="#_49">五、易错点</a>
+<a class="lv2" href="#_50">六、配套与自检</a>
+<a class="lv1" href="#8">第8讲 一元函数积分学的概念与性质</a>
+<a class="lv2" href="#pdf_7">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_51">一、核心知识点</a>
+<a class="lv2" href="#_52">二、公式定理</a>
+<a class="lv2" href="#_53">三、典型题型与解题思路</a>
+<a class="lv2" href="#_54">四、复习重点</a>
+<a class="lv2" href="#_55">五、易错点</a>
+<a class="lv2" href="#_56">六、配套与自检</a>
+<a class="lv1" href="#9">第9讲 一元函数积分学的计算</a>
+<a class="lv2" href="#pdf_8">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_57">一、核心知识点</a>
+<a class="lv2" href="#_58">二、公式定理</a>
+<a class="lv2" href="#_59">三、典型题型与解题思路</a>
+<a class="lv2" href="#_60">四、复习重点</a>
+<a class="lv2" href="#_61">五、易错点</a>
+<a class="lv2" href="#_62">六、配套与自检</a>
+<a class="lv1" href="#10">第10讲 一元函数积分学的应用（一）——几何应用</a>
+<a class="lv2" href="#pdf_9">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_63">一、核心知识点</a>
+<a class="lv2" href="#_64">二、公式定理</a>
+<a class="lv2" href="#_65">三、典型题型与解题思路</a>
+<a class="lv2" href="#_66">四、复习重点</a>
+<a class="lv2" href="#_67">五、易错点</a>
+<a class="lv2" href="#_68">六、配套与自检</a>
+<a class="lv1" href="#11">第11讲 一元函数积分学的应用（二）——积分等式与积分不等式</a>
+<a class="lv2" href="#pdf_10">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_69">一、核心知识点</a>
+<a class="lv2" href="#_70">二、公式定理</a>
+<a class="lv2" href="#_71">三、典型题型与解题思路</a>
+<a class="lv2" href="#_72">四、复习重点</a>
+<a class="lv2" href="#_73">五、易错点</a>
+<a class="lv2" href="#_74">六、配套与自检</a>
+<a class="lv1" href="#12">第12讲 一元函数积分学的应用（三）——物理应用与经济应用</a>
+<a class="lv2" href="#pdf_11">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_75">一、核心知识点</a>
+<a class="lv2" href="#_76">二、公式定理</a>
+<a class="lv2" href="#_77">三、典型题型与解题思路</a>
+<a class="lv2" href="#_78">四、复习重点</a>
+<a class="lv2" href="#_79">五、易错点</a>
+<a class="lv2" href="#_80">六、配套与自检</a>
+<a class="lv1" href="#13">第13讲 多元函数微分学</a>
+<a class="lv2" href="#pdf_12">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_81">一、核心知识点</a>
+<a class="lv2" href="#_82">二、公式定理</a>
+<a class="lv2" href="#_83">三、典型题型与解题思路</a>
+<a class="lv2" href="#_84">四、复习重点</a>
+<a class="lv2" href="#_85">五、易错点</a>
+<a class="lv2" href="#_86">六、配套与自检</a>
+<a class="lv1" href="#14">第14讲 二重积分</a>
+<a class="lv2" href="#pdf_13">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_87">一、核心知识点</a>
+<a class="lv2" href="#_88">二、公式定理</a>
+<a class="lv2" href="#_89">三、典型题型与解题思路</a>
+<a class="lv2" href="#_90">四、复习重点</a>
+<a class="lv2" href="#_91">五、易错点</a>
+<a class="lv2" href="#_92">六、配套与自检</a>
+<a class="lv1" href="#15">第15讲 微分方程</a>
+<a class="lv2" href="#pdf_14">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_93">一、核心知识点</a>
+<a class="lv2" href="#_94">二、公式定理</a>
+<a class="lv2" href="#_95">三、典型题型与解题思路</a>
+<a class="lv2" href="#_96">四、复习重点</a>
+<a class="lv2" href="#_97">五、易错点</a>
+<a class="lv2" href="#_98">六、配套与自检</a>
+<a class="lv1" href="#16">第16讲 无穷级数（仅数学一、数学三）</a>
+<a class="lv2" href="#pdf_15">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_99">一、核心知识点</a>
+<a class="lv2" href="#_100">二、公式定理</a>
+<a class="lv2" href="#_101">三、典型题型与解题思路</a>
+<a class="lv2" href="#_102">四、复习重点</a>
+<a class="lv2" href="#_103">五、易错点</a>
+<a class="lv2" href="#_104">六、配套与自检</a>
+<a class="lv1" href="#17">第17讲 多元函数积分学的预备知识（仅数学一）</a>
+<a class="lv2" href="#pdf_16">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_105">一、核心知识点</a>
+<a class="lv2" href="#_106">二、公式定理</a>
+<a class="lv2" href="#_107">三、典型题型与解题思路</a>
+<a class="lv2" href="#_108">四、复习重点</a>
+<a class="lv2" href="#_109">五、易错点</a>
+<a class="lv2" href="#_110">六、配套与自检</a>
+<a class="lv1" href="#18">第18讲 多元函数积分学（仅数学一）</a>
+<a class="lv2" href="#pdf_17">〇、教材原始框架（已从拆分 PDF 提取）</a>
+<a class="lv2" href="#_111">一、核心知识点</a>
+<a class="lv2" href="#_112">二、公式定理</a>
+<a class="lv2" href="#_113">三、典型题型与解题思路</a>
+<a class="lv2" href="#_114">四、复习重点</a>
+<a class="lv2" href="#_115">五、易错点</a>
+<a class="lv2" href="#_116">六、配套与自检</a></nav>
+<main><h1 id="00">00 总纲｜识别依据、拆分方案与分章复习提纲</h1>
+<blockquote>
+<p><strong>当前阶段</strong>：按最新要求，本套资料<strong>只交付提纲骨架，正文内容留待后续填写</strong>。
+已完成的 25 份分章 PDF 是长期成果，提纲是后续逐讲填写内容的框架。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、文件识别结果</h2>
+<table>
+<thead>
+<tr>
+<th>项</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目标书籍</td>
+<td>《考研数学基础30讲·高等数学分册》（张宇），俗称「27 张宇基础30讲（高数）」</td>
+</tr>
+<tr>
+<td>源文件</td>
+<td><code>C:\Users\25819\Documents\xwechat_files\wxid_81wkbp9r7hlw22_4f35\msg\file\2026-07\27张宇基础30讲（高数）.pdf</code></td>
+</tr>
+<tr>
+<td>文件大小</td>
+<td>353.3 MB</td>
+</tr>
+<tr>
+<td>总页数</td>
+<td><strong>586 页</strong>（516 × 754 pt）</td>
+</tr>
+<tr>
+<td>PDF 性质</td>
+<td>纯扫描图像（每页 1 张约 1030×1510 的 JPX 图），<strong>无文字层</strong>；PDF 书签仅 1 条无关广告</td>
+</tr>
+<tr>
+<td>章节单位</td>
+<td>以「讲」为单位：18 讲 + 6 个附录（不是传统「章」）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>「是否存在多个 PDF」的判定</strong>：工作区中只有一本张宇高数大书，但它<strong>不在当前文件夹</strong>，而在微信文件目录。
+- 工作区 <code>_test_ch02.pdf</code>（18.4 MB / 23 页）是上次拆分测试留下的第 2 讲片段，<strong>不是第二本书</strong>；
+- 同目录的 <code>线索卡.pdf</code>、<code>simuro足球赛制说明.pdf</code>、桌面 <code>NDS Dataset Intro.pdf</code> 均与高数无关；
+- 用户目录下以「张宇 / 基础30讲」为名的文件仅此一个。故按<strong>单一 PDF</strong> 处理。</p>
+<h2 id="_2">二、章节划分的识别依据</h2>
+<ol>
+<li><strong>目录页</strong>：书内目录逐条给出 18 讲 + 6 附录的标题与起始页码（第1讲 p1 … 附录6 p563）。</li>
+<li><strong>逐讲首页核验</strong>：抽查第1、6、17 讲及附录首页的讲名与书内页码，与目录完全一致。</li>
+<li><strong>页码偏移</strong>：前置部分（封面、前言、目录等）共 6 页，故 <strong>PDF 页码 = 书内页码 + 6</strong>；例如第6讲书内 p164 = PDF 页 170，第17讲书内 p464 = PDF 页 470。</li>
+<li><strong>完整性校验</strong>：按 24 个起始页切分后，合计 586 页，与源 PDF 页数严格相等，无遗漏、无重叠。</li>
+</ol>
+<blockquote>
+<p>目录 OCR 中曾有 3 个页码识别模糊（第6/13/17 讲），已用首页印刷页码交叉确认：164 / 304 / 464。</p>
+</blockquote>
+<h2 id="_3">三、拆分方案与执行结果</h2>
+<ul>
+<li><strong>拆分粒度</strong>：按原书「讲」为单位，18 讲 + 6 附录，另加 1 份前置页，共 <strong>25 份</strong>；不按内容主题重新归并，以保留原书结构。</li>
+<li><strong>命名规范</strong>：<code>第NN讲_讲名.pdf</code>（两位序号，易排序）、<code>附录N_名称.pdf</code>、<code>00_前置页_封面与前言目录.pdf</code>；文件名去掉「——」等易造成路径兼容问题的符号，完整讲名写入 PDF 元数据与书签。</li>
+<li><strong>存放位置</strong>：<code>C:\Users\25819\Desktop\高数\分章PDF\</code>，附 <code>_拆分清单.csv</code>（含书内页、PDF 页、页数、大小、校验结果）。</li>
+<li><strong>质量控制</strong>：直接复制原始 JPX 图像流，<strong>未压缩、未降采样</strong>，保证公式清晰；每份写入标题元数据与单条书签；逐份回读校验页数与首页图像，<strong>25 份全部 OK，合计 586 页 / 353.2 MB</strong>。</li>
+<li>原 353.3 MB 单本被拆为 0.4–55 MB 的小份，便于分讲阅读与携带。</li>
+</ul>
+<h3 id="_4">目录与页码映射</h3>
+<table>
+<thead>
+<tr>
+<th>单元</th>
+<th>标题</th>
+<th>书内起始页</th>
+<th>PDF 页码范围</th>
+<th>页数</th>
+<th>拆分文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>前置</td>
+<td>封面、前言、目录</td>
+<td>—</td>
+<td>1–6</td>
+<td>6</td>
+<td><code>00_前置页_封面与前言目录.pdf</code></td>
+</tr>
+<tr>
+<td>第1讲</td>
+<td>函数极限与连续</td>
+<td>1</td>
+<td>7–81</td>
+<td>75</td>
+<td><code>第01讲_函数极限与连续.pdf</code></td>
+</tr>
+<tr>
+<td>第2讲</td>
+<td>数列极限</td>
+<td>76</td>
+<td>82–104</td>
+<td>23</td>
+<td><code>第02讲_数列极限.pdf</code></td>
+</tr>
+<tr>
+<td>第3讲</td>
+<td>一元函数微分学的概念</td>
+<td>99</td>
+<td>105–124</td>
+<td>20</td>
+<td><code>第03讲_一元函数微分学的概念.pdf</code></td>
+</tr>
+<tr>
+<td>第4讲</td>
+<td>一元函数微分学的计算</td>
+<td>119</td>
+<td>125–144</td>
+<td>20</td>
+<td><code>第04讲_一元函数微分学的计算.pdf</code></td>
+</tr>
+<tr>
+<td>第5讲</td>
+<td>一元函数微分学的应用（一）——几何应用</td>
+<td>139</td>
+<td>145–169</td>
+<td>25</td>
+<td><code>第05讲_一元函数微分学的应用(一)几何应用.pdf</code></td>
+</tr>
+<tr>
+<td>第6讲</td>
+<td>一元函数微分学的应用（二）——中值定理、微分等式与微分不等式</td>
+<td>164</td>
+<td>170–191</td>
+<td>22</td>
+<td><code>第06讲_一元函数微分学的应用(二)中值定理与微分不等式.pdf</code></td>
+</tr>
+<tr>
+<td>第7讲</td>
+<td>一元函数微分学的应用（三）——物理应用与经济应用</td>
+<td>186</td>
+<td>192–200</td>
+<td>9</td>
+<td><code>第07讲_一元函数微分学的应用(三)物理应用与经济应用.pdf</code></td>
+</tr>
+<tr>
+<td>第8讲</td>
+<td>一元函数积分学的概念与性质</td>
+<td>195</td>
+<td>201–235</td>
+<td>35</td>
+<td><code>第08讲_一元函数积分学的概念与性质.pdf</code></td>
+</tr>
+<tr>
+<td>第9讲</td>
+<td>一元函数积分学的计算</td>
+<td>230</td>
+<td>236–268</td>
+<td>33</td>
+<td><code>第09讲_一元函数积分学的计算.pdf</code></td>
+</tr>
+<tr>
+<td>第10讲</td>
+<td>一元函数积分学的应用（一）——几何应用</td>
+<td>263</td>
+<td>269–287</td>
+<td>19</td>
+<td><code>第10讲_一元函数积分学的应用(一)几何应用.pdf</code></td>
+</tr>
+<tr>
+<td>第11讲</td>
+<td>一元函数积分学的应用（二）——积分等式与积分不等式</td>
+<td>282</td>
+<td>288–299</td>
+<td>12</td>
+<td><code>第11讲_一元函数积分学的应用(二)积分等式与积分不等式.pdf</code></td>
+</tr>
+<tr>
+<td>第12讲</td>
+<td>一元函数积分学的应用（三）——物理应用与经济应用</td>
+<td>294</td>
+<td>300–309</td>
+<td>10</td>
+<td><code>第12讲_一元函数积分学的应用(三)物理应用与经济应用.pdf</code></td>
+</tr>
+<tr>
+<td>第13讲</td>
+<td>多元函数微分学</td>
+<td>304</td>
+<td>310–343</td>
+<td>34</td>
+<td><code>第13讲_多元函数微分学.pdf</code></td>
+</tr>
+<tr>
+<td>第14讲</td>
+<td>二重积分</td>
+<td>338</td>
+<td>344–382</td>
+<td>39</td>
+<td><code>第14讲_二重积分.pdf</code></td>
+</tr>
+<tr>
+<td>第15讲</td>
+<td>微分方程</td>
+<td>377</td>
+<td>383–414</td>
+<td>32</td>
+<td><code>第15讲_微分方程.pdf</code></td>
+</tr>
+<tr>
+<td>第16讲</td>
+<td>无穷级数（仅数学一、数学三）</td>
+<td>409</td>
+<td>415–469</td>
+<td>55</td>
+<td><code>第16讲_无穷级数(仅数学一数学三).pdf</code></td>
+</tr>
+<tr>
+<td>第17讲</td>
+<td>多元函数积分学的预备知识（仅数学一）</td>
+<td>464</td>
+<td>470–493</td>
+<td>24</td>
+<td><code>第17讲_多元函数积分学的预备知识(仅数学一).pdf</code></td>
+</tr>
+<tr>
+<td>第18讲</td>
+<td>多元函数积分学（仅数学一）</td>
+<td>488</td>
+<td>494–551</td>
+<td>58</td>
+<td><code>第18讲_多元函数积分学(仅数学一).pdf</code></td>
+</tr>
+<tr>
+<td>附录1</td>
+<td>图像变换</td>
+<td>546</td>
+<td>552–554</td>
+<td>3</td>
+<td><code>附录1_图像变换.pdf</code></td>
+</tr>
+<tr>
+<td>附录2</td>
+<td>常用平面图形</td>
+<td>549</td>
+<td>555–557</td>
+<td>3</td>
+<td><code>附录2_常用平面图形.pdf</code></td>
+</tr>
+<tr>
+<td>附录3</td>
+<td>常用空间图形</td>
+<td>552</td>
+<td>558–560</td>
+<td>3</td>
+<td><code>附录3_常用空间图形.pdf</code></td>
+</tr>
+<tr>
+<td>附录4</td>
+<td>重要公式</td>
+<td>555</td>
+<td>561–563</td>
+<td>3</td>
+<td><code>附录4_重要公式.pdf</code></td>
+</tr>
+<tr>
+<td>附录5</td>
+<td>从指数函数到双曲函数</td>
+<td>558</td>
+<td>564–568</td>
+<td>5</td>
+<td><code>附录5_从指数函数到双曲函数.pdf</code></td>
+</tr>
+<tr>
+<td>附录6</td>
+<td>变形技巧</td>
+<td>563</td>
+<td>569–586</td>
+<td>18</td>
+<td><code>附录6_变形技巧.pdf</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">四、数学一适用性对照（填写提纲时请据此取舍）</h2>
+<table>
+<thead>
+<tr>
+<th>讲</th>
+<th>数一处理方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1–6讲</td>
+<td>全讲必考；教材「目标」中标注「仅数学三」的个别条目可略</td>
+</tr>
+<tr>
+<td>第7讲</td>
+<td>⚠️ <strong>只考物理应用与相关变化率</strong>；复利、边际、弹性仅数三，可略</td>
+</tr>
+<tr>
+<td>第8–11讲</td>
+<td>全讲必考；第8讲中「仅数学三」的条目可略</td>
+</tr>
+<tr>
+<td>第12讲</td>
+<td>⚠️ 只考物理应用（做功、抽水、静水压力、引力）；经济应用仅数三，可略</td>
+</tr>
+<tr>
+<td>第13讲</td>
+<td>全讲必考，含<strong>仅数一</strong>的二元函数二阶泰勒公式</td>
+</tr>
+<tr>
+<td>第14讲</td>
+<td>全讲必考</td>
+</tr>
+<tr>
+<td>第15讲</td>
+<td>伯努利、全微分、可降阶、欧拉方程、几何与物理应用为数一内容；<strong>差分方程仅数三，可略</strong></td>
+</tr>
+<tr>
+<td>第16讲</td>
+<td>全讲必考，含<strong>仅数一</strong>的傅里叶级数</td>
+</tr>
+<tr>
+<td>第17、18讲</td>
+<td><strong>仅数一</strong>考查，是数一高数的重点与难点</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">五、复习资料的文件结构与填写规范</h2>
+<pre><code>考研数学一复习资料/
+├── 00_总纲_识别依据与拆分方案.md      ← 本文件
+├── 考研数学一_高数_分章复习提纲_汇总.md  ← 18 讲提纲合订本
+├── 提纲总览.html                     ← 浏览器阅读版（带目录导航）
+├── 第01讲_…md … 第18讲_…md           ← 18 个分章提纲骨架
+└── 附_第1-3讲内容初稿.md             ← 已写正文的参考范式
+</code></pre>
+<p>每讲提纲固定 7 个部分：</p>
+<table>
+<thead>
+<tr>
+<th>部分</th>
+<th>状态</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>〇、教材原始框架</td>
+<td>✅ 已提取</td>
+<td>来自各讲首页「基础知识结构」框图 + 考题/题型/目标/重难点表格</td>
+</tr>
+<tr>
+<td>一、核心知识点</td>
+<td>⬜ 待填</td>
+<td>定义、性质、成立条件、知识联系</td>
+</tr>
+<tr>
+<td>二、公式定理</td>
+<td>⬜ 待填</td>
+<td>名称 + 表达式 + 适用条件 + 常用变形</td>
+</tr>
+<tr>
+<td>三、典型题型与解题思路</td>
+<td>⬜ 待填</td>
+<td>题型 → 识别特征 → 步骤 → 教材页码</td>
+</tr>
+<tr>
+<td>四、复习重点</td>
+<td>⬜ 待填</td>
+<td>★ 分级、真题频次、个人掌握度（教材重难点已预置）</td>
+</tr>
+<tr>
+<td>五、易错点</td>
+<td>⬜ 待填</td>
+<td>错因 / 反例 / 正确写法</td>
+</tr>
+<tr>
+<td>六、配套与自检</td>
+<td>✅ 已提取</td>
+<td>附录关联 + 自检清单</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>公式建议使用 LaTeX（<code>$...$</code> / <code>$$...$$</code>），用支持数学渲染的 Markdown 阅读器（Obsidian / Typora / VS Code）查看。</p>
+</blockquote>
+<h2 id="_7">六、填写进度表</h2>
+<table>
+<thead>
+<tr>
+<th>讲</th>
+<th>标题</th>
+<th>核心知识点</th>
+<th>公式定理</th>
+<th>典型题型</th>
+<th>复习重点</th>
+<th>易错点</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1讲</td>
+<td>函数极限与连续</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>🟨 有参考初稿（见 <code>附_第1-3讲内容初稿.md</code>）</td>
+</tr>
+<tr>
+<td>第2讲</td>
+<td>数列极限</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>🟨 有参考初稿（见 <code>附_第1-3讲内容初稿.md</code>）</td>
+</tr>
+<tr>
+<td>第3讲</td>
+<td>一元函数微分学的概念</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>🟨 有参考初稿（见 <code>附_第1-3讲内容初稿.md</code>）</td>
+</tr>
+<tr>
+<td>第4讲</td>
+<td>一元函数微分学的计算</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第5讲</td>
+<td>一元函数微分学的应用（一）——几何应用</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第6讲</td>
+<td>一元函数微分学的应用（二）——中值定理、微分等式与微分不等式</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第7讲</td>
+<td>一元函数微分学的应用（三）——物理应用与经济应用</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第8讲</td>
+<td>一元函数积分学的概念与性质</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第9讲</td>
+<td>一元函数积分学的计算</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第10讲</td>
+<td>一元函数积分学的应用（一）——几何应用</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第11讲</td>
+<td>一元函数积分学的应用（二）——积分等式与积分不等式</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第12讲</td>
+<td>一元函数积分学的应用（三）——物理应用与经济应用</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第13讲</td>
+<td>多元函数微分学</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第14讲</td>
+<td>二重积分</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第15讲</td>
+<td>微分方程</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第16讲</td>
+<td>无穷级数（仅数学一、数学三）</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第17讲</td>
+<td>多元函数积分学的预备知识（仅数学一）</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+<tr>
+<td>第18讲</td>
+<td>多元函数积分学（仅数学一）</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜</td>
+<td>⬜ 待填写</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8">七、附录索引</h2>
+<table>
+<thead>
+<tr>
+<th>附录</th>
+<th>书内起始页</th>
+<th>PDF 页码</th>
+<th>页数</th>
+<th>建议配合</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>附录1 图像变换</td>
+<td>546</td>
+<td>552–554</td>
+<td>3</td>
+<td>图像平移/对称/伸缩，配合第1、5讲函数作图</td>
+</tr>
+<tr>
+<td>附录2 常用平面图形</td>
+<td>549</td>
+<td>555–557</td>
+<td>3</td>
+<td>面积/形心/二重积分区域，配合第10、14讲</td>
+</tr>
+<tr>
+<td>附录3 常用空间图形</td>
+<td>552</td>
+<td>558–560</td>
+<td>3</td>
+<td>空间曲面与立体，配合第17、18讲</td>
+</tr>
+<tr>
+<td>附录4 重要公式</td>
+<td>555</td>
+<td>561–563</td>
+<td>3</td>
+<td>全局速查表，配合所有讲</td>
+</tr>
+<tr>
+<td>附录5 从指数函数到双曲函数</td>
+<td>558</td>
+<td>564–568</td>
+<td>5</td>
+<td>配合第1、15、16讲</td>
+</tr>
+<tr>
+<td>附录6 变形技巧</td>
+<td>563</td>
+<td>569–586</td>
+<td>18</td>
+<td>放缩与恒等变形模板，配合第1、2、9、11讲</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>生成脚本：<code>split_chapters.py</code>（拆分）、<code>build_outline.py</code>（提纲）；原始分析素材保留在 <code>_章节首页/</code>。</em></p>
+<hr />
+<hr />
+<h1 id="1">第1讲 函数极限与连续</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第01讲_函数极限与连续.pdf</code>（PDF 页 7–81，书内页 1–75，共 75 页）
+<strong>教材考题</strong>：计算函数极限
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①洛必达法则；②泰勒公式
+<strong>数一适用性</strong>：全讲必考 ★★★★★（后续各讲的工具基础）；目标中标注「仅数学三」的条目可略
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第1讲首页「基础知识结构」框图 + 「目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>函数的概念与特性</strong>（原书框图一级分支）</li>
+<li>函数 y=f(x)；反函数 y=f⁻¹(x)；复合函数 y=f[g(x)]；隐函数</li>
+<li>四种特性：有界性 / 单调性 / 奇偶性 / 周期性 → 重要结论</li>
+<li><strong>极限</strong>（据教材「目标」条目）</li>
+<li>极限的定义、左极限与右极限、极限存在与左右极限的关系</li>
+<li>极限性质：唯一性、局部有界性、局部保号性、四则运算法则、复合运算</li>
+<li>两个重要极限；极限存在的两个准则（夹逼、单调有界）</li>
+<li>无穷小与无穷大、无穷小阶的比较、等价无穷小求极限</li>
+<li><strong>连续</strong></li>
+<li>连续与左/右连续；间断点的类型判别</li>
+<li>连续函数的性质、初等函数的连续性、闭区间连续函数性质</li>
+<li><strong>工具（教材重难点）</strong>：洛必达法则、泰勒公式</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①函数的概念与表示、有界/单调/周期/奇偶性 ②复合与分段函数、反函数、隐函数 ③基本初等函数 ④极限概念与左右极限 ⑤极限性质与四则运算、两个重要极限 ⑥两个准则（仅数一、数二） ⑦无穷小与无穷大、等价无穷小 ⑧连续性与间断点类型 ⑨连续函数性质
+
+</details>
+
+<hr />
+<h2 id="_9">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_10">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_11">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_12">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①洛必达法则；②泰勒公式</li>
+</ul>
+<h2 id="_13">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_14">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》、附录6《变形技巧》、附录5《从指数函数到双曲函数》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="2">第2讲 数列极限</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第02讲_数列极限.pdf</code>（PDF 页 82–104，书内页 76–98，共 23 页）
+<strong>教材考题</strong>：证明数列极限的存在性
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①海涅定理的应用；②通过放缩利用夹逼准则求极限；③单调有界准则证明极限存在
+<strong>数一适用性</strong>：全讲必考 ★★★★（解答题证明高频）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_1">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第2讲首页「基础知识结构」框图（含教材手写批注）+「重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>数列的概念</strong>（数列是一种特殊的函数，f(x) 中 x 取正整数）</li>
+<li><strong>用定义</strong>：ε-N 语言（用于证明，不用于计算）</li>
+<li><strong>用性质</strong>：唯一性 / 有界性 / 保号性</li>
+<li><strong>用四则运算规则</strong></li>
+<li><strong>★ 用海涅定理（归结原则）</strong>：联系数列极限与函数极限</li>
+<li><strong>★ 用夹逼准则</strong></li>
+<li><strong>★ 用单调有界准则</strong></li>
+<li><strong>{xₙ} 收敛于 a 的速度问题</strong></li>
+<li>以上分支共同指向：<strong>求极限（或证明极限的存在性）</strong>；教材批注「命题高峰，可出大题」</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①理解数列极限的概念 ②掌握数列极限的性质及四则运算规则 ③掌握数列极限存在的两个准则并会用它们求极限
+
+</details>
+
+<hr />
+<h2 id="_15">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_16">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_17">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_18">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①海涅定理的应用；②通过放缩利用夹逼准则求极限；③单调有界准则证明极限存在</li>
+</ul>
+<h2 id="_19">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_20">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录6《变形技巧》（放缩模板）、第8/9讲定积分定义</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="3">第3讲 一元函数微分学的概念</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第03讲_一元函数微分学的概念.pdf</code>（PDF 页 105–124，书内页 99–118，共 20 页）
+<strong>教材考题</strong>：一元函数微分学的概念
+<strong>教材题型</strong>：选择题、填空题
+<strong>教材重难点</strong>：①高阶导数的计算；②导数几何意义的应用；③可导充要条件的应用
+<strong>数一适用性</strong>：全讲必考 ★★★★（选择题概念辨析主战场）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_2">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第3讲首页「基础知识结构」框图 +「重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>导数</strong>（原书框图一级分支）</li>
+<li><strong>导数的几何意义</strong></li>
+<li><strong>高阶导数</strong>（教材标注：数一/数二必考，选择填空；可结合级数考查）</li>
+<li><strong>微分的概念</strong>：一元函数 可导 ⇔ 可微（充要条件）</li>
+<li>教材引例：位移—时间图像（s-t 图）与速度、加速度的实际问题数学化</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①理解导数与微分的概念 ②理解导数与微分的关系 ③理解导数的几何意义
+
+</details>
+
+<hr />
+<h2 id="_21">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_22">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_23">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_24">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①高阶导数的计算；②导数几何意义的应用；③可导充要条件的应用</li>
+</ul>
+<h2 id="_25">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_26">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》（高阶导数与展开式）</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="4">第4讲 一元函数微分学的计算</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第04讲_一元函数微分学的计算.pdf</code>（PDF 页 125–144，书内页 119–138，共 20 页）
+<strong>教材考题</strong>：一元函数导数的计算
+<strong>教材题型</strong>：选择题
+<strong>教材重难点</strong>：求复合函数的导数，分段函数的导数，隐函数的导数
+<strong>数一适用性</strong>：全讲必考 ★★★★（计算基本功，后面所有讲都要用）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_3">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第4讲首页「基础知识结构」框图 +「重难点」表格</p>
+</blockquote>
+<ul>
+<li>基本求导公式（教材批注：倒着背就是后面的积分公式）</li>
+<li>四则运算</li>
+<li>复合函数的导数与微分形式不变性</li>
+<li>分段函数的导数</li>
+<li>反函数的导数</li>
+<li>隐函数求导法（F(x,y)=0）</li>
+<li>参数方程所确定的函数的导数（x=x(t), y=y(t)）</li>
+<li>对数求导法</li>
+<li>幂指函数求导法（uᵛ = e^「v ln u」）</li>
+<li><strong>高阶导数</strong>（教材批注：考研的重点和难点）</li>
+<li>归纳法</li>
+<li>莱布尼茨公式</li>
+<li>泰勒展开式 → 通项 f⁽ⁿ⁾(x₀)/n! · (x−x₀)ⁿ</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①导数的四则运算与复合函数求导、基本初等函数导数公式、微分四则运算与一阶微分形式不变性 ②高阶导数概念与简单函数高阶导数 ③分段函数导数、隐函数与参数方程确定的函数（仅数一、数二）及反函数的导数
+
+</details>
+
+<hr />
+<h2 id="_27">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_28">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_29">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_30">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：求复合函数的导数，分段函数的导数，隐函数的导数</li>
+</ul>
+<h2 id="_31">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_32">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="5">第5讲 一元函数微分学的应用（一）——几何应用</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第05讲_一元函数微分学的应用(一)几何应用.pdf</code>（PDF 页 145–169，书内页 139–163，共 25 页）
+<strong>教材考题</strong>：极值点与单调性、拐点与凹凸性、最值等函数性态的分析，渐近线的求法
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①极值点的判别；②拐点的判别
+<strong>数一适用性</strong>：数一全考 ★★★★（含曲率、曲率圆、曲率半径）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_4">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第5讲首页「基础知识结构」框图（上部）+「考题/目标/重难点」表格与手写批注</p>
+</blockquote>
+<ul>
+<li><strong>函数性态分析</strong>（教材手写批注：画出 f(x) 大致图像需考虑定义域、对应法则、奇偶性、周期性、有界性、单调性、凹凸性；极值点、拐点、渐近线、最值）</li>
+<li><strong>基础知识结构</strong>（原书框图）</li>
+<li>极值的定义</li>
+<li>单调性的判别 → 产生极值点</li>
+<li>一阶可导点是极值点的必要条件</li>
+<li><strong>由「考题」补齐的模块</strong>：拐点与凹凸性、最值、三类渐近线、曲率/曲率圆/曲率半径</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①极值概念、用导数判断单调性与求极值、最大值最小值及其应用 ②凹凸性、拐点、水平/铅直/斜渐近线、描绘函数图像 ③曲率、曲率圆与曲率半径（仅数一、数二）
+
+</details>
+
+<hr />
+<h2 id="_33">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_34">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_35">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_36">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①极值点的判别；②拐点的判别</li>
+</ul>
+<h2 id="_37">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_38">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录1《图像变换》、附录2《常用平面图形》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="6">第6讲 一元函数微分学的应用（二）——中值定理、微分等式与微分不等式</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第06讲_一元函数微分学的应用(二)中值定理与微分不等式.pdf</code>（PDF 页 170–191，书内页 164–185，共 22 页）
+<strong>教材考题</strong>：中值定理、微分等式与微分不等式
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①平均值定理；②罗尔定理的推论；③用函数性态证明微分不等式；④用中值定理证明微分不等式
+<strong>数一适用性</strong>：全讲必考 ★★★★★（证明题核心）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_5">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第6讲首页「基础知识结构」框图 +「目标/重难点」表格与讲题注</p>
+</blockquote>
+<ul>
+<li><strong>中值定理（教材「10 大定理」框图）</strong></li>
+<li>涉及函数 f(x)：定理1 有界与最值定理 / 定理2 介值定理 / 定理3 平均值定理 / 定理4 零点定理</li>
+<li>涉及导数 f′(x), f⁽ⁿ⁾(x)：定理5 费马定理 / 定理6 罗尔定理 / 定理7 拉格朗日中值定理 / 定理8 柯西中值定理 / 定理9 泰勒公式</li>
+<li>涉及积分 ∫f(x)dx：定理10 积分中值定理</li>
+<li>教材批注：由介值定理推出，考过很多次；10 大定理可直接用、无须证明</li>
+<li><strong>三条应用主线</strong>（讲题注）：①连续函数＋可导函数 ②方程（数二、三常考） ③用导数的方法证明（数三常考）</li>
+<li><strong>微分等式与微分不等式</strong>：构造辅助函数、罗尔定理推论、函数性态法</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①理解闭区间上连续函数的性质（有界性、最大值最小值定理、介值定理）并会应用 ②理解并会用罗尔定理、拉格朗日中值定理和泰勒定理，了解并会用柯西中值定理
+
+</details>
+
+<hr />
+<h2 id="_39">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_40">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_41">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_42">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①平均值定理；②罗尔定理的推论；③用函数性态证明微分不等式；④用中值定理证明微分不等式</li>
+</ul>
+<h2 id="_43">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_44">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录6《变形技巧》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="7">第7讲 一元函数微分学的应用（三）——物理应用与经济应用</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第07讲_一元函数微分学的应用(三)物理应用与经济应用.pdf</code>（PDF 页 192–200，书内页 186–194，共 9 页）
+<strong>教材考题</strong>：物理应用与相关变化率（仅数一、数二）；复利与连续复利（仅数三）；导数的经济应用（仅数三）
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：相关变化率（仅数一、数学二）
+<strong>数一适用性</strong>：⚠️ 数一<strong>只需</strong>「物理应用与相关变化率」；复利、边际、弹性仅数三，复习时可略过 ★★
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_6">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第7讲首页「基础知识结构」框图 +「考题/重难点」表格的「仅数x」标注</p>
+</blockquote>
+<ul>
+<li><strong>物理应用与相关变化率（仅数一、数二）</strong> ← 数一唯一需掌握的部分</li>
+<li>物理应用</li>
+<li>★ 相关变化率</li>
+<li>复利与连续复利（仅数三，数一略）</li>
+<li>导数的经济应用（仅数三，数一略）</li>
+<li>经济学中常见的函数 / 边际函数与边际分析 / 弹性函数与弹性分析</li>
+<li>教材讲题注：强调「用数学工具解决应用问题，不会出现过于专业的问题」</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①了解导数的物理意义、会用导数描述物理量（仅数一、数二） ②了解导数的经济意义（含边际与弹性，仅数三）
+
+</details>
+
+<hr />
+<h2 id="_45">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_46">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_47">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_48">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：相关变化率（仅数一、数学二）</li>
+</ul>
+<h2 id="_49">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_50">六、配套与自检</h2>
+<ul>
+<li>附录关联：—</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="8">第8讲 一元函数积分学的概念与性质</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第08讲_一元函数积分学的概念与性质.pdf</code>（PDF 页 201–235，书内页 195–229，共 35 页）
+<strong>教材考题</strong>：不定积分、定积分、变限积分、反常积分
+<strong>教材题型</strong>：选择题、填空题
+<strong>教材重难点</strong>：①不定积分和定积分的性质及积分中值定理；②变限积分函数的概念与性质；③反常积分的概念及敛散性
+<strong>数一适用性</strong>：全讲必考 ★★★★（概念辨析、变限积分、反常积分敛散性）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_7">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第8讲首页「基础知识结构」框图（上部）+「考题/目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>不定积分</strong>（原书框图）</li>
+<li>原函数与不定积分</li>
+<li>原函数（不定积分）存在定理</li>
+<li><strong>定积分</strong>：定义、性质、积分中值定理</li>
+<li><strong>变限积分函数</strong>：概念、性质、求导（含上下限都变的情形）</li>
+<li><strong>反常积分</strong>：无穷区间、无界函数；收敛的比较判别法与 p-积分结论</li>
+<li>由「考题」覆盖的四类对象：不定积分 / 定积分 / 变限积分 / 反常积分</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①原函数、不定积分与定积分的概念 ②不定积分与定积分的性质及定积分中值定理 ③积分上限的函数及其导数 ④反常积分的概念与收敛的比较判别法
+
+</details>
+
+<hr />
+<h2 id="_51">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_52">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_53">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_54">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①不定积分和定积分的性质及积分中值定理；②变限积分函数的概念与性质；③反常积分的概念及敛散性</li>
+</ul>
+<h2 id="_55">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_56">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="9">第9讲 一元函数积分学的计算</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第09讲_一元函数积分学的计算.pdf</code>（PDF 页 236–268，书内页 230–262，共 33 页）
+<strong>教材考题</strong>：不定积分、定积分、变限积分和反常积分的计算
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①不定积分和反常积分的计算；②定积分的计算和方法；③变限积分的计算和结论；④有些原函数无法用基本初等函数进行表示
+<strong>数一适用性</strong>：全讲必考 ★★★★★（微积分计算核心，教材批注「微积分计算核心」）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_8">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第9讲首页「基础知识结构」框图与手写批注 +「目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>基本积分公式的由来</strong>：[F(x)]′ = f(x) ⇒ ∫f(x)dx = F(x)+C</li>
+<li><strong>不定积分中四大积分方法</strong></li>
+<li>基本积分公式 / 凑微分法 / 换元法 / 分部积分法</li>
+<li><strong>教材标注的两个难点</strong></li>
+<li>① F′(x)=f(x)：使用基本积分方法找不到 F(x)</li>
+<li>② 有的原函数无法用基本初等函数进行表示</li>
+<li><strong>由「目标/考题」补齐</strong>：定积分计算（牛—莱公式、对称性、周期性）、变限积分计算与结论、反常积分计算、有理函数/三角有理式/简单无理函数积分</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①不定积分基本公式、换元积分法与分部积分法 ②有理函数、三角函数有理式和简单无理函数的积分 ③牛顿—莱布尼茨公式 ④会计算反常积分
+
+</details>
+
+<hr />
+<h2 id="_57">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_58">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_59">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_60">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①不定积分和反常积分的计算；②定积分的计算和方法；③变限积分的计算和结论；④有些原函数无法用基本初等函数进行表示</li>
+</ul>
+<h2 id="_61">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_62">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》、附录6《变形技巧》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="10">第10讲 一元函数积分学的应用（一）——几何应用</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第10讲_一元函数积分学的应用(一)几何应用.pdf</code>（PDF 页 269–287，书内页 263–281，共 19 页）
+<strong>教材考题</strong>：①平面图形的面积、旋转体的体积、函数的平均值 ②形心坐标公式、平面曲线的弧长、旋转曲面的面积（侧面积）（仅数一、数二）
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：平面图形的面积、旋转体的体积
+<strong>数一适用性</strong>：数一全考 ★★★★（形心、弧长、旋转曲面面积也是数一考点）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_9">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第10讲首页「基础知识结构」框图 +「考题/重难点」表格与手写批注</p>
+</blockquote>
+<ul>
+<li><strong>公共部分（三种基本量）</strong></li>
+<li>平面图形的面积 / 旋转体的体积 / 函数的平均值</li>
+<li><strong>其他几何应用（仅数一、数二）</strong></li>
+<li>形心坐标公式 / 平面曲线的弧长 / 旋转曲面的面积（侧面积）</li>
+<li>教材手写批注：微分学的几何应用＝极值、最值点、拐点、单调性、凹凸性、渐近线；本讲总目标「套公式、做计算」（核心见第9讲）</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①用定积分表达并计算面积、弧长、体积、侧面积、平行截面面积已知的立体体积、质心、形心及函数平均值 ②会利用定积分计算上述几何量
+
+</details>
+
+<hr />
+<h2 id="_63">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_64">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_65">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_66">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：平面图形的面积、旋转体的体积</li>
+</ul>
+<h2 id="_67">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_68">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录2《常用平面图形》、附录3《常用空间图形》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="11">第11讲 一元函数积分学的应用（二）——积分等式与积分不等式</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第11讲_一元函数积分学的应用(二)积分等式与积分不等式.pdf</code>（PDF 页 288–299，书内页 282–293，共 12 页）
+<strong>教材考题</strong>：积分等式、积分不等式的求法
+<strong>教材题型</strong>：解答题
+<strong>教材重难点</strong>：①求积分；②积分后求极限
+<strong>数一适用性</strong>：全讲必考 ★★★★（大题/难度大的小题，教材明确标注）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_10">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第11讲首页「基础知识结构」框图与手写批注 +「目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>积分等式（教材标注「重中之重」）</strong></li>
+<li>用中值定理 / 用夹逼准则 / 用积分法</li>
+<li><strong>积分不等式</strong></li>
+<li>用函数的单调性 / 用拉格朗日中值定理 / 用泰勒公式 / 用换元与分部积分</li>
+<li><strong>考点常考形式</strong>（教材手写标注）：① ∫… ② lim ∫…</li>
+<li>教材批注：会出大题或者难度大的小题</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①掌握定积分中值定理、用夹逼准则求一类积分极限与证明某些特殊的积分等式 ②掌握函数单调性、拉格朗日中值定理、泰勒公式、换元与分部积分法、牛—莱公式并会证明积分形式的不等式
+
+</details>
+
+<hr />
+<h2 id="_69">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_70">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_71">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_72">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①求积分；②积分后求极限</li>
+</ul>
+<h2 id="_73">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_74">六、配套与自检</h2>
+<ul>
+<li>附录关联：第6讲中值定理、附录6《变形技巧》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="12">第12讲 一元函数积分学的应用（三）——物理应用与经济应用</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第12讲_一元函数积分学的应用(三)物理应用与经济应用.pdf</code>（PDF 页 300–309，书内页 294–303，共 10 页）
+<strong>教材考题</strong>：变力沿直线做功、抽水做功、静水压力、引力的求法（仅数一、数二）；经济类题目求解（仅数三）
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：静水压力的求法（仅数一、数学二）
+<strong>数一适用性</strong>：⚠️ 数一只需「物理应用」四类；经济应用仅数三可略 ★★★
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_11">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第12讲首页「基础知识结构」框图 +「考题/重难点」表格的「仅数x」标注</p>
+</blockquote>
+<ul>
+<li><strong>物理应用（仅数一、数二）</strong> ← 数一唯一需掌握的部分</li>
+<li>变力沿直线做功 / 抽水做功 / 静水压力 / 引力</li>
+<li>「三心」的概念（质心、形心、重心相关）</li>
+<li><strong>经济应用（仅数三，数一略）</strong>：由「去余会第一定理」等经济学模型求解</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①掌握变力沿直线做功、抽水做功、静水压力、引力的方法（仅数一、数二） ②掌握求解经济应用的题目（仅数三）
+
+</details>
+
+<hr />
+<h2 id="_75">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_76">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_77">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_78">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：静水压力的求法（仅数一、数学二）</li>
+</ul>
+<h2 id="_79">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_80">六、配套与自检</h2>
+<ul>
+<li>附录关联：第10讲几何应用</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="13">第13讲 多元函数微分学</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第13讲_多元函数微分学.pdf</code>（PDF 页 310–343，书内页 304–337，共 34 页）
+<strong>教材考题</strong>：连续、可微、隐函数存在定理、极值与最值
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①可微的判断；②条件最值与拉格朗日乘数法
+<strong>数一适用性</strong>：数一全考 ★★★★★（含仅数一的二元二阶泰勒公式）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_12">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第13讲首页「基础知识结构」框图 +「考题/目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>基本概念</strong></li>
+<li>邻域 / 极限 / 连续 / 偏导数 / 可微</li>
+<li>教材配图对比：一元函数 y=f(x)（区间 I） vs 二元函数 z=f(x,y)（区域 D）</li>
+<li><strong>多元函数微分法则</strong></li>
+<li>链式求导规则</li>
+<li>全微分形式不变性</li>
+<li>隐函数存在定理（公式法）</li>
+<li>二元函数的拉格朗日定理</li>
+<li><strong>由「考题」补齐</strong>：极值与最值、条件极值、二元二阶泰勒公式</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①全微分、全微分存在的必要/充分条件、全微分形式不变性、隐函数存在定理与多元隐函数的偏导数 ②二元函数的二阶泰勒公式（仅数一） ③多元函数极值的必要条件与二元函数极值的充分条件、条件极值与拉格朗日乘数法、最值应用
+
+</details>
+
+<hr />
+<h2 id="_81">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_82">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_83">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_84">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①可微的判断；②条件最值与拉格朗日乘数法</li>
+</ul>
+<h2 id="_85">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_86">六、配套与自检</h2>
+<ul>
+<li>附录关联：第17讲方向导数与梯度</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="14">第14讲 二重积分</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第14讲_二重积分.pdf</code>（PDF 页 344–382，书内页 338–376，共 39 页）
+<strong>教材考题</strong>：二重积分
+<strong>教材题型</strong>：解答题
+<strong>教材重难点</strong>：计算二重积分
+<strong>数一适用性</strong>：全讲必考 ★★★★（几乎每年一道大题）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_13">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第14讲首页「基础知识结构」框图与手写批注 +「目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>概念、性质与对称性</strong></li>
+<li>概念 / 性质</li>
+<li>★ 对称性 → 普通对称性、轮换对称性（教材批注：重要考点；对称问题尽量用对称方法解决）</li>
+<li><strong>计算</strong></li>
+<li>直角坐标系</li>
+<li>极坐标系</li>
+<li>极坐标系与直角坐标系的互相转化</li>
+<li>换元法</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①理解二重积分的概念、基本性质、中值定理 ②掌握二重积分的计算方法（直角坐标、极坐标）
+
+</details>
+
+<hr />
+<h2 id="_87">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_88">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_89">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_90">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：计算二重积分</li>
+</ul>
+<h2 id="_91">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_92">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录2《常用平面图形》、第18讲三重积分</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="15">第15讲 微分方程</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第15讲_微分方程.pdf</code>（PDF 页 383–414，书内页 377–408，共 32 页）
+<strong>教材考题</strong>：齐次微分方程、一阶线性微分方程、伯努利方程（仅数一）、二阶可降阶微分方程、二阶常系数线性微分方程、欧拉方程（仅数一）、几何应用、物理应用（仅数一、数二）、差分方程（仅数三）
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①二阶常系数齐次线性微分方程的求解；②欧拉方程（仅数一）
+<strong>数一适用性</strong>：数一需掌握伯努利方程、全微分方程、可降阶方程、欧拉方程、几何与物理应用；<strong>差分方程仅数三可略</strong> ★★★★
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_14">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第15讲首页「基础知识结构」框图 +「考题/目标/重难点」表格（含「仅数x」标注）</p>
+</blockquote>
+<ul>
+<li><strong>微分方程的概念</strong>（原书框图）</li>
+<li>微分方程及其阶 / 常微分方程 / 线性微分方程</li>
+<li>微分方程的解 / 微分方程的通解 / 初始条件与特解</li>
+<li>→ 用概念解题</li>
+<li><strong>一阶方程</strong>：变量可分离、齐次、一阶线性、伯努利、全微分</li>
+<li><strong>可降阶的高阶方程</strong>：y⁽ⁿ⁾=f(x)、y″=f(x,y′)、y″=f(y,y′)</li>
+<li><strong>线性微分方程解的结构</strong>：齐次通解 + 非齐次特解、叠加原理</li>
+<li><strong>二阶常系数线性</strong>：特征方程；自由项为多项式/指数/正余弦及其和积</li>
+<li><strong>欧拉方程</strong>（仅数一）：x = eᵗ 变换</li>
+<li><strong>应用</strong>：几何应用、物理应用；差分方程（仅数三，数一略）</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①阶、解、通解、初始条件与特解 ②变量可分离、齐次、一阶线性 ③伯努利方程与全微分方程（仅数一） ④可降阶的高阶微分方程 ⑤线性微分方程解的性质与结构 ⑥二阶常系数齐次线性及高于二阶 ⑦自由项为多项式/指数/正余弦及其和积的非齐次方程 ⑧欧拉方程（仅数一） ⑨几何与物理应用 ⑩差分方程（仅数三）
+
+</details>
+
+<hr />
+<h2 id="_93">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_94">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_95">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_96">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①二阶常系数齐次线性微分方程的求解；②欧拉方程（仅数一）</li>
+</ul>
+<h2 id="_97">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_98">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录5《从指数函数到双曲函数》</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="16">第16讲 无穷级数（仅数学一、数学三）</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第16讲_无穷级数(仅数学一数学三).pdf</code>（PDF 页 415–469，书内页 409–463，共 55 页）
+<strong>教材考题</strong>：①级数敛散性的判别、幂级数及其收敛域、幂级数求和函数、函数展开成幂级数；②傅里叶级数（仅数一）
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①判别级数的敛散性；②求幂级数的和函数；③函数展开成幂级数；④了解函数展开为泰勒级数的充分必要条件（仅数一）；⑤会将定义在 [−l,l] 上的函数展开为傅里叶级数，会将定义在 [0,l] 上的函数展开为正弦级数与余弦级数，会写出和函数的表达式（仅数一）
+<strong>数一适用性</strong>：数一全考且含<strong>仅数一</strong>的傅里叶级数 ★★★★★
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_15">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第16讲首页「考题/目标/重难点」表格（逐条整理，无框图）</p>
+</blockquote>
+<ul>
+<li><strong>常数项级数</strong>（据教材「目标」①—⑤）</li>
+<li>收敛/发散/和、基本性质、收敛必要条件</li>
+<li>几何级数与 p 级数</li>
+<li>正项级数：比较判别法（及极限形式）、比值法、根值法、积分判别法</li>
+<li>交错级数：莱布尼茨判别法</li>
+<li>绝对收敛与条件收敛</li>
+<li><strong>幂级数</strong>（据「目标」⑥—⑧、⑩）</li>
+<li>函数项级数收敛域与和函数（仅数一）</li>
+<li>收敛半径、收敛区间、收敛域</li>
+<li>和函数的连续性、逐项求导、逐项积分；求数项级数的和</li>
+<li>必背麦克劳林展开：eˣ、sin x、cos x、ln(1+x)、(1+x)ᵅ</li>
+<li><strong>函数展开成幂级数</strong>（据「目标」⑨）：泰勒级数展开的充分必要条件（仅数一）</li>
+<li><strong>傅里叶级数</strong>（据「考题」②、「目标」⑪，仅数一）</li>
+<li>概念与狄利克雷收敛定理</li>
+<li>[−l,l] 上展开为傅里叶级数；[0,l] 上展开为正弦/余弦级数</li>
+<li>和函数的表达式（端点与间断点的收敛值）</li>
+<li>注：本讲首页无「基础知识结构」框图，以上框架由「考题/目标/重难点」条目整理</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①常数项级数收敛/发散/和、收敛必要条件 ②几何级数与 p 级数 ③正项级数比较/比值/根值/积分判别法 ④交错级数莱布尼茨判别法 ⑤绝对收敛与条件收敛 ⑥函数项级数收敛域与和函数（仅数一） ⑦幂级数收敛半径/区间/域 ⑧幂级数性质与求和函数、求数项级数和 ⑨函数展开为泰勒级数的充要条件（仅数一） ⑩麦克劳林展开式 ⑪傅里叶级数、狄利克雷收敛定理、[−l,l] 与 [0,l] 展开及和函数（仅数一）
+
+</details>
+
+<hr />
+<h2 id="_99">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_100">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_101">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_102">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①判别级数的敛散性；②求幂级数的和函数；③函数展开成幂级数；④了解函数展开为泰勒级数的充分必要条件（仅数一）；⑤会将定义在 [−l,l] 上的函数展开为傅里叶级数，会将定义在 [0,l] 上的函数展开为正弦级数与余弦级数，会写出和函数的表达式（仅数一）</li>
+</ul>
+<h2 id="_103">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_104">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录4《重要公式》、第1讲泰勒公式</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="17">第17讲 多元函数积分学的预备知识（仅数学一）</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第17讲_多元函数积分学的预备知识(仅数学一).pdf</code>（PDF 页 470–493，书内页 464–487，共 24 页）
+<strong>教材考题</strong>：空间曲线与曲面方程、曲线切线与法平面、曲面切平面与法线的求解，散度与旋度的概念、方向导数和梯度的计算
+<strong>教材题型</strong>：选择题、填空题
+<strong>教材重难点</strong>：空间曲线与曲面方程的求解
+<strong>数一适用性</strong>：<strong>仅数一</strong>考查，全讲必看 ★★★★（第18讲的前置工具）
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_16">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第17讲首页「基础知识结构」框图与手写批注 +「考题/目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>向量代数</strong>（原书框图）</li>
+<li>向量及其表达形式</li>
+<li>向量的运算及其应用 → 数量积（点乘）/ 向量积（叉乘）/ 混合积</li>
+<li>向量的方向角和方向余弦</li>
+<li><strong>空间平面与直线</strong>（教材批注：重点为法向量）</li>
+<li>平面方程：一般式 / 点法式 / 三点式 / 截距式 / 平面束方程</li>
+<li>直线方程：一般式 / 点向式 / 参数式 / 两点式</li>
+<li><strong>由「考题」补齐</strong>：空间曲线与曲面方程、曲线切线与法平面、曲面切平面与法线、方向导数与梯度、散度与旋度</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①会计算空间曲线与曲面的方程，会求曲线的切线与法平面、曲面的切平面与法线 ②了解散度与旋度的概念，并会计算方向导数和梯度
+
+</details>
+
+<hr />
+<h2 id="_105">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_106">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_107">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_108">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：空间曲线与曲面方程的求解</li>
+</ul>
+<h2 id="_109">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_110">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录3《常用空间图形》、第18讲</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr />
+<h1 id="18">第18讲 多元函数积分学（仅数学一）</h1>
+<blockquote>
+<p><strong>对应拆分 PDF</strong>：<code>分章PDF/第18讲_多元函数积分学(仅数学一).pdf</code>（PDF 页 494–551，书内页 488–545，共 58 页）
+<strong>教材考题</strong>：三重积分、第一型曲线积分、第一型曲面积分、第二型曲线积分、第二型曲面积分
+<strong>教材题型</strong>：选择题、填空题、解答题
+<strong>教材重难点</strong>：①第二型曲线积分；②第二型曲面积分；③格林公式；④高斯公式；⑤斯托克斯公式
+<strong>数一适用性</strong>：<strong>仅数一</strong>考查，数一高数分值最重的一讲 ★★★★★
+<strong>填写状态</strong>：⬜ 待填写（本文件为提纲骨架，正文留待后续补充）</p>
+</blockquote>
+<hr />
+<h2 id="pdf_17">〇、教材原始框架（已从拆分 PDF 提取）</h2>
+<blockquote>
+<p>提取来源：第18讲首页「基础知识结构」框图 +「考题/目标/重难点」表格</p>
+</blockquote>
+<ul>
+<li><strong>三重积分</strong>（原书框图，教材批注「化为一个二重积分＋定积分」）</li>
+<li>概念、性质与对称性 → 概念 / 性质 / 对称性（普通对称性、轮换对称性）</li>
+<li>计算 → 直角坐标系（先一后二法、先二后一法）/ 柱面坐标系 / 球面坐标系 / 换元法</li>
+<li>应用</li>
+<li><strong>由「考题/目标」补齐的其余模块</strong></li>
+<li>第一型曲线积分、第一型曲面积分（概念、性质、计算、对称性）</li>
+<li>第二型曲线积分、第二型曲面积分（概念、性质、计算、两类积分的关系）</li>
+<li>三大公式：格林公式 / 高斯公式 / 斯托克斯公式</li>
+<li>路径无关与全微分求原函数</li>
+<li>几何量与物理量的应用（面积、体积、曲面面积、弧长、质量、质心、形心、转动惯量、引力、功、流量）</li>
+</ul>
+<details>
+<summary>教材「目标」条目（原文摘录）</summary>
+
+①三重积分概念与性质 ②三重积分计算（直角、柱面、球面坐标） ③两类曲线积分概念、性质及关系 ④两类曲线积分的计算 ⑤格林公式、平面曲线积分与路径无关的条件、求二元函数全微分的原函数 ⑥两类曲面积分概念/性质/关系、计算、高斯公式、斯托克斯公式 ⑦用重积分、曲线积分、曲面积分求几何量与物理量（面积、体积、曲面面积、弧长、质量、质心、形心、转动惯量、引力、功、流量等）
+
+</details>
+
+<hr />
+<h2 id="_111">一、核心知识点</h2>
+<ul>
+<li>[ ] 待填：按上方框架逐条写定义、性质、成立条件与知识点之间的相互联系</li>
+</ul>
+<h2 id="_112">二、公式定理</h2>
+<ul>
+<li>[ ] 待填：公式 / 定理名称 + 表达式 + 适用条件 + 常用变形（建议列表格）</li>
+</ul>
+<h2 id="_113">三、典型题型与解题思路</h2>
+<ul>
+<li>[ ] 待填：题型名称 → 识别特征 → 解题步骤 → 对应教材页码 / 例题编号</li>
+</ul>
+<h2 id="_114">四、复习重点</h2>
+<ul>
+<li>[ ] 待填：★ 分级、真题频次、个人掌握度</li>
+<li>[ ] 教材已指明重难点：①第二型曲线积分；②第二型曲面积分；③格林公式；④高斯公式；⑤斯托克斯公式</li>
+</ul>
+<h2 id="_115">五、易错点</h2>
+<ul>
+<li>[ ] 待填：典型错因 / 反例 / 正确写法</li>
+</ul>
+<h2 id="_116">六、配套与自检</h2>
+<ul>
+<li>附录关联：附录3《常用空间图形》、第14讲二重积分、第17讲预备知识</li>
+<li>[ ] 精读拆分 PDF　[ ] 完成基础习题　[ ] 错题回查　[ ] 本讲正文填写完成</li>
+</ul>
+<hr /></main></div></body></html>

@@ -1,0 +1,42 @@
+# ---- 临时检查产物（早期 PDF 定位与 OCR 调试用，可重新生成，不入库）----
+_inspect/
+_inspect_check/
+_inspect_headers/
+_inspect_targets/
+temp_inspect/
+_章节首页/
+_test_ch02.pdf
+_test_p0.png
+
+# ---- 一次性调试脚本（保留两个可复现的主脚本）----
+check_footers.ps1
+check_offsets.py
+check_page_numbers.py
+check_toc_details.py
+crop_wide.py
+find_starts.ps1
+get_toc.ps1
+get_toc_boxes.ps1
+get_toc_json.ps1
+ocr_banners.ps1
+ocr_crops.ps1
+ocr_test.ps1
+ocr_wide.ps1
+search_missing.py
+verify_starts.py
+
+# ---- WorkBuddy 工具内部数据 ----
+.workbuddy/
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
